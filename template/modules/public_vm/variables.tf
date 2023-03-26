@@ -6,6 +6,7 @@ variable "aws_region" {
 
 variable "aws_zone" {
   type = string
+  default     = "us-east-1a"
   description = "AWS zone to create subnet."
 }
 
