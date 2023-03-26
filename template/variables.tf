@@ -1,10 +1,12 @@
 variable "aws_region" {
   type = string
+  default     = "us-east-1"
   description = "AWS region to launch servers."
 }
 
 variable "aws_zone" {
   type = string
+  default     = "us-east-1a"
   description = "AWS zone to create subnet."
 }
 
