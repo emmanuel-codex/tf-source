@@ -12,6 +12,7 @@ variable "aws_zone" {
 
 variable "admin_user" {
   type = string
+  default = "centos"
   description = "Admin user for the AMI we're launching"
 }
 
